@@ -8,3 +8,8 @@
     margin-left: 0px;
     margin-right: 0px;
 } */
+.button-design{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+}
