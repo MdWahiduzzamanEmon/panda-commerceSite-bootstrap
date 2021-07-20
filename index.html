@@ -18,16 +18,25 @@
             <!-- navbar section -->
             <section class="fixed-top ">
                 <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+                <nav class="navbar justify-content-between navbar-expand-lg navbar-light bg-light px-3">
+                    <div>
                         <a class="navbar-brand" href="#">
                             <img src="img/logo.png" alt="logo">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
+                        
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        
+                        <div class="d-none d-lg-block d-xl-block w-50 position-relative ">
+                            <input class="form-control rounded-pill place border-0" placeholder="Search" type="text">
+                            <span class="position position-absolute top-50 end-0 translate-middle-y"><i class="fas fa-search"></i></span>
+                        </div>
+                        
+                        <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup" >
+                            <div class="navbar-nav" >
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 <a class="nav-link" href="#">Shoes</a>
                                 <a class="nav-link" href="#">Backpacks</a>
@@ -155,9 +164,13 @@
             <!-- catagories end  -->
 
             <!-- shoe section -->
-            <section class="container">
-                <h2>Shoes</h2>
-                <div class="row shoe-sec-margin row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <section class="container ">
+                <div class="d-flex justify-content-between">
+                    <h2>Shoes</h2>
+                    <a href="#" class="text-decoration-none text-warning h4">See All</a>
+                </div>
+               
+                <div class="row shoe-sec-margin row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center">
                     <div class="col rounded-3">
                         <div class="card h-100  border-0 shadow-lg">
                             <img src="img/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -168,7 +181,7 @@
                                     $120
                                 </h5>
                             </div>
-                            <div class="ms-4 mb-3">
+                            <div class="mb-3">
                                 <button class="btn btn-danger button-design">Buy Now 
                                     <span><i class="fas fa-chevron-right"></i></span>
                                     <span><i class="fas fa-chevron-right"></i></span>
@@ -186,7 +199,7 @@
                                     $320
                                 </h5>
                             </div>
-                            <div class="ms-4 mb-3">
+                            <div class="mb-3">
                                 <button class="btn btn-danger button-design">Buy Now 
                                     <span><i class="fas fa-chevron-right"></i></span>
                                     <span><i class="fas fa-chevron-right"></i></span>
@@ -202,7 +215,7 @@
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
                                 <h5>$350</h5>
                             </div>
-                            <div class="ms-4 mb-3">
+                            <div class="mb-3">
                                 <button class="btn btn-danger button-design">Buy Now 
                                     <span><i class="fas fa-chevron-right"></i></span>
                                     <span><i class="fas fa-chevron-right"></i></span>
@@ -215,9 +228,12 @@
             <!-- shoe section end -->
 
             <!-- backpack section  -->
-            <section class="container my-5">
-                <h2>Backpack</h2>
-                <div class="row shoe-sec-margin row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <section class="container   my-5">
+                <div class="d-flex justify-content-between">
+                    <h2>Backpack</h2>
+                    <a href="#" class="text-decoration-none text-warning h4">See All</a>
+                </div>
+                <div class="row shoe-sec-margin row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center">
                     <div class="col rounded-3">
                         <div class="card h-100  border-0 shadow-lg">
                             <img src="img/bags/bag-1.png" class="card-img-top" alt="...">
@@ -230,7 +246,7 @@
                                 longer.</p>
                                 
                             </div>
-                            <div class="ms-4 mb-3">
+                            <div class="mb-3">
                                 <button class="btn btn-danger button-design">Buy Now 
                                     <span><i class="fas fa-chevron-right"></i></span>
                                     <span><i class="fas fa-chevron-right"></i></span>
@@ -250,7 +266,7 @@
                                 </p>
                                 
                             </div>
-                            <div class="ms-4 mb-3">
+                            <div class="mb-3">
                                 <button class="btn btn-danger button-design">Buy Now 
                                     <span><i class="fas fa-chevron-right"></i></span>
                                     <span><i class="fas fa-chevron-right"></i></span>
@@ -268,7 +284,7 @@
                                 content than the first to show that equal height action.</p>
                                 
                             </div>
-                            <div class="ms-4 mb-3">
+                            <div class="mb-3">
                                 <button class="btn btn-danger button-design">Buy Now 
                                     <span><i class="fas fa-chevron-right"></i></span>
                                     <span><i class="fas fa-chevron-right"></i></span>
@@ -281,14 +297,17 @@
 
             <!-- backpack section end  -->
 
-            <section class="container d-flex justify-content-center align-items-center custom-bg-color rounded-3" id="subscribe">
+            <section class="container d-flex justify-content-center align-items-center custom-bg-color rounded-3 text-center" id="subscribe">
                 <div class="wrapp">
                     <h1>LET'S STAY IN TOUCH
                         </h1>
                         <p>Get updates on sales, specials and more</p>
-                        <input class="form-control" type="text">
+                        <input class="form-control" type="email" placeholder="Enter your Email">
                         <br>
-                        <button class="btn button-design">Submit</button>
+                        <div class="text-end">
+                            <button class="btn button-design">Submit</button>
+                        </div>
+                        
                 </div>
             </section>
 
